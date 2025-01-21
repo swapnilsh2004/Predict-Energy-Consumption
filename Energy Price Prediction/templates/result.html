@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <!-- <link rel="stylesheet" href="result.css"> -->
+    <style>/* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        /* Header */
+        header {
+            background-color: #3f51b5;
+            padding: 1rem 2rem;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+        }
+        
+        /* Result Container */
+        .result-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .result-container h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+        
+        .result-container p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: #555;
+        }
+        
+        .result-container .highlight {
+            color: #3f51b5;
+            font-weight: bold;
+        }
+        
+        .result-container button {
+            padding: 0.8rem 2rem;
+            font-size: 1rem;
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .result-container button:hover {
+            background-color: #388E3C;
+        }
+        
+        /* Footer */
+        footer {
+            background: #3f51b5;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        
+        /* Styling the prediction result page */
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+            padding: 2rem;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-size: 1.2rem;
+            text-align: center;
+            color: #555;
+            margin-top: 10px;
+        }
+        
+        a {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.8rem 1.5rem;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+        a:hover {
+            background-color: #388E3C;
+        }
+        
+        </style>
+
+</head>
+<body>
+    <h1>Predicted Energy Consumption</h1>
+    <p>The predicted energy consumption is <strong>{{ prediction }} kWh</strong>.</p>
+    <a href="/">Predict Again</a>
+</body>
+</html>
