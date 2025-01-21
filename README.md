@@ -1,3 +1,4 @@
+Sorry, the model size is large, so I cannot upload it here.
 Energy Consumption Prediction
 This project is a web-based application designed to predict energy consumption based on input data. It provides users with an easy-to-understand interface to input relevant data, view the prediction result, and initiate further predictions.
 
