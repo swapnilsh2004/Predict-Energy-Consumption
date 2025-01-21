@@ -13,7 +13,7 @@ Backend:
 Flask (for Python-based prediction model, SARIMAX Model)
 
 1) Clone the repository:
-  git clone https://github.com/swapnilsh2004/energy-consumption-prediction.git
+  git clone https://github.com/swapnilsh2004/Predict-Energy-Consumption.git
 2) Navigate to the project folder:
    cd energy-consumption-prediction
 3) Run the application: If using Flask, run the following command to start the server:
